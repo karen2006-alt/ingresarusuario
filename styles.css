@@ -3,10 +3,10 @@
   --muted: #748097;
   --line: #e2e7ee;
   --paper: #ffffff;
-  --accent: #e66a3d;
-  --accent-dark: #c9532b;
-  --blue: #2f557f;
-  --shadow: 0 24px 70px rgba(38, 56, 84, 0.15);
+  --accent: #df1f2d;
+  --accent-dark: #b51220;
+  --blue: #123d8f;
+  --shadow: 0 24px 70px rgba(18, 61, 143, 0.15);
 }
 
 * {
@@ -27,8 +27,8 @@ body::before {
   inset: 0;
   content: "";
   background:
-    radial-gradient(circle at 15% 10%, rgba(230, 106, 61, 0.15), transparent 31%),
-    radial-gradient(circle at 88% 92%, rgba(47, 85, 127, 0.16), transparent 34%),
+    radial-gradient(circle at 15% 10%, rgba(223, 31, 45, 0.14), transparent 31%),
+    radial-gradient(circle at 88% 92%, rgba(18, 61, 143, 0.16), transparent 34%),
     linear-gradient(135deg, #f9faf9 0%, #eef2f2 100%);
 }
 
@@ -57,7 +57,7 @@ body::before {
   color: #fff;
   border-radius: 13px;
   background: var(--blue);
-  box-shadow: 0 9px 20px rgba(47, 85, 127, 0.24);
+  box-shadow: 0 9px 20px rgba(18, 61, 143, 0.24);
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
   font-weight: 800;
@@ -178,7 +178,7 @@ input[type="text"]:focus,
 input[type="password"]:focus {
   border-color: var(--accent);
   background: #fff;
-  box-shadow: 0 0 0 4px rgba(230, 106, 61, 0.12);
+  box-shadow: 0 0 0 4px rgba(223, 31, 45, 0.12);
 }
 
 input::placeholder {
@@ -236,7 +236,7 @@ button {
   border-radius: 9px;
   color: #fff;
   background: var(--blue);
-  box-shadow: 0 9px 18px rgba(47, 85, 127, 0.2);
+  box-shadow: 0 9px 18px rgba(18, 61, 143, 0.2);
   cursor: pointer;
   font: inherit;
   font-size: 14px;
@@ -245,8 +245,8 @@ button {
 }
 
 button:hover {
-  background: #24466c;
-  box-shadow: 0 11px 23px rgba(47, 85, 127, 0.27);
+  background: #0d2d6d;
+  box-shadow: 0 11px 23px rgba(18, 61, 143, 0.27);
   transform: translateY(-1px);
 }
 
